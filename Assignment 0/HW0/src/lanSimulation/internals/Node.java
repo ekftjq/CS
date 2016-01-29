@@ -19,6 +19,11 @@
  */
 package lanSimulation.internals;
 
+import lanSimulation.Network;
+
+import java.io.IOException;
+import java.io.Writer;
+
 /**
  * A <em>Node</em> represents a single Node in a Local Area Network (LAN).
  * Several types of Nodes exist.
@@ -80,4 +85,210 @@ public class Node {
 		nextNode = _nextNode;
 	}
 
+	public boolean printDocument(Packet document, Writer report, Network network) {
+		String author = "Unknown";
+		String title = "Untitled";
+		int startPos = 0, endPos = 0;
+
+		if (type == PRINTER) {
+			try {
+				if (document.message.startsWith("!PS")) {
+					startPos = document.message.indexOf("author:");
+					if (startPos >= 0) {
+						endPos = document.message.indexOf(".", startPos + 7);
+						if (endPos < 0) {
+							endPos = document.message.length();
+						}
+
+						author = document.message.substring(startPos + 7,
+								endPos);
+					}
+
+					startPos = document.message.indexOf("title:");
+					if (startPos >= 0) {
+						endPos = document.message.indexOf(".", startPos + 6);
+						if (endPos < 0) {
+							endPos = document.message.length();
+						}
+						title = document.message
+								.substring(startPos + 6, endPos);
+					}
+
+					String jobType = "Postscript";
+					writeAccountingReport(report, author, title, jobType);
+				} else {
+					title = "ASCII DOCUMENT";
+					if (document.message.length() >= 16) {
+						author = document.message.substring(8, 16);
+					}
+
+					String jobType = "ASCII Print";
+					writeAccountingReport(report, author, title, jobType);
+				}
+
+			} catch (IOException exc) {
+				// just ignore
+			}
+			return true;
+		} else {
+			try {
+				report
+						.write(">>> Destination is not a printer, print job canceled.\n\n");
+				report.flush();
+			} catch (IOException exc) {
+				// just ignore
+			}
+			return false;
+		}
+	}
+
+	private void writeAccountingReport(Writer report, String author, String title, String jobType) throws IOException {
+		report.write("\tAccounting -- author = '");
+		report.write(author);
+		report.write("' -- title = '");
+		report.write(title);
+		report.write("'\n");
+		report.write(">>> " + jobType + " job delivered.\n\n");
+		report.flush();
+	}
+
+	/**
+	 * The #receiver is requested by #workstation to print #document on
+	 * #printer. Therefore #receiver sends a packet across the token ring
+	 * network, until either (1) #printer is reached or (2) the packet traveled
+	 * complete token ring.
+	 * <p>
+	 * <strong>Precondition:</strong> consistentNetwork() &
+	 * hasWorkstation(workstation);
+	 * </p>
+	 *
+	 * @param workstation
+	 *            Name of the workstation requesting the service.
+	 * @param document
+	 *            Contents that should be printed on the printer.
+	 * @param printer
+	 *            Name of the printer that should receive the document.
+	 * @param report
+	 *            Stream that will hold a report about what happened when
+	 *            handling the request.
+	 * @param network
+	 * @return Answer #true when the print operation was successful and #false
+	 *         otherwise
+	 */
+	public boolean requestWorkstationPrintsDocument(String workstation,
+													String document, String printer, Writer report, Network network) {
+		assert network.consistentNetwork() & network.hasWorkstation(workstation);
+
+		try {
+			report.write("'");
+			report.write(workstation);
+			report.write("' requests printing of '");
+			report.write(document);
+			report.write("' on '");
+			report.write(printer);
+			report.write("' ...\n");
+		} catch (IOException exc) {
+			// just ignore
+		}
+
+		boolean result = false;
+		Node startNode, currentNode;
+		Packet packet = new Packet(document, workstation, printer);
+
+		startNode = network.workstations.get(workstation);
+
+		try {
+			Node nodeType = startNode;
+			network.firstNode.requestNode(report, nodeType);
+			report.flush();
+		} catch (IOException exc) {
+			// just ignore
+		}
+
+		currentNode = startNode.nextNode;
+		while ((!packet.destination.equals(currentNode.name))
+				& (!packet.origin.equals(currentNode.name))) {
+			try {
+				Node nodeType = currentNode;
+				requestNode(report, nodeType);
+				report.flush();
+			} catch (IOException exc) {
+				// just ignore
+			}
+
+			currentNode = currentNode.nextNode;
+		}
+
+		if (packet.destination.equals(currentNode.name)) {
+			result = currentNode.printDocument(packet, report, network);
+		} else {
+			try {
+				report
+						.write(">>> Destination not found, print job canceled.\n\n");
+				report.flush();
+			} catch (IOException exc) {
+				// just ignore
+			}
+
+			result = false;
+		}
+
+		return result;
+	}
+
+	/**
+	 * The #receiver is requested to broadcast a message to all nodes. Therefore
+	 * #receiver sends a special broadcast packet across the token ring network,
+	 * which should be treated by all nodes.
+	 * <p>
+	 * <strong>Precondition:</strong> consistentNetwork();
+	 * </p>
+	 *
+	 * @param report
+	 *            Stream that will hold a report about what happened when
+	 *            handling the request.
+	 * @param network
+	 * @return Answer #true when the broadcast operation was successful and
+	 *         #false otherwise
+	 */
+	public boolean requestBroadcast(Writer report, Network network) {
+		assert network.consistentNetwork();
+
+		try {
+			report.write("Broadcast Request\n");
+		} catch (IOException exc) {
+			// just ignore
+		}
+
+		Node currentNode = this;
+		Packet packet = new Packet("BROADCAST", name, name);
+		do {
+			try {
+				Node nodeType = currentNode;
+				report.write("\tNode '");
+				report.write(nodeType.name);
+				report.write("' accepts broadcast packet.\n");
+				requestNode(report, nodeType);
+				report.flush();
+			} catch (IOException exc) {
+				// just ignore
+			}
+
+			currentNode = currentNode.nextNode;
+		} while (!packet.destination.equals(currentNode.name));
+
+		try {
+			report.write(">>> Broadcast traveled whole token ring.\n\n");
+		} catch (IOException exc) {
+			// just ignore
+		}
+
+		return true;
+	}
+
+	private void requestNode(Writer report, Node nodeType) throws IOException {
+		report.write("\tNode '");
+		report.write(nodeType.name);
+		report.write("' passes packet on.\n");
+	}
 }

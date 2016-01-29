@@ -55,67 +55,67 @@ public class LANSimulation {
 				.println("---------------------------------SCENARIOS------------------------------------------");
 		String document = "author: FILIP   Hello World";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		System.out.print("'Filip' prints '" + document
 				+ "' on 'UnknownPrinter': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "UnknownPrinter", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "UnknownPrinter", report, network));
 		System.out.println(" (expects false);");
 
 		System.out.print("'Filip' prints '" + document + "' on 'Hans': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Hans", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Hans", report, network));
 		System.out.println(" (expects false);");
 
 		System.out.print("'Filip' prints '" + document + "' on 'n1': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "n1", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "n1", report, network));
 		System.out.println(" (expects false);");
 
 		document = "Hello World";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		document = "!PS Hello World in postscript.author:Filip.title:Hello.";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		System.out.print("'Filip' prints '" + document + "' on 'Hans': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Hans", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Hans", report, network));
 		System.out.println(" (expects false);");
 
 		document = "!PS Hello World in postscript.Author:Filip.Title:Hello.";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		document = "!PS Hello World in postscript.author:Filip;title:Hello;";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		document = "!PS Hello World in postscript.author:.title:.";
 		System.out.print("'Filip' prints '" + document + "' on 'Andy': ");
-		System.out.print(network.requestWorkstationPrintsDocument("Filip",
-				document, "Andy", report));
+		System.out.print(network.firstNode.requestWorkstationPrintsDocument("Filip",
+				document, "Andy", report, network));
 		System.out.println(" (expects true);");
 
 		try {
 			System.out
 					.print("'UnknownWorkstation' prints 'does not matter' on 'does not matter': ");
-			System.out.print(network.requestWorkstationPrintsDocument(
+			System.out.print(network.firstNode.requestWorkstationPrintsDocument(
 					"UnknownWorkstation", "does not matter", "does not matter",
-					report));
+					report, network));
 			System.out.println(" (??? no exception);");
 		} catch (AssertionError e1) {
 			System.out.println("exception (as expected);");
@@ -123,7 +123,7 @@ public class LANSimulation {
 		;
 
 		System.out.print("BROADCAST REQUEST: ");
-		System.out.print(network.requestBroadcast(report));
+		System.out.print(network.firstNode.requestBroadcast(report, network));
 		System.out.println(" (expects true);");
 
 		System.out.println();

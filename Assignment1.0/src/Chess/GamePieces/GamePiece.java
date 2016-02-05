@@ -35,7 +35,7 @@ public class GamePiece {
 
     //check if the block is within boundaries, check if movement is real, and check if color is same
     public boolean ValidMove(Block[][] board, int currentx, int currenty, int newx, int newy) {
-        if(currentx < 0 || newx > board.length || currenty < 0 || newy > board.length) {
+        if(currentx < 0 || newx > board.length || currenty < 0 || newy > board.length || newx < 0 || newy < 0 || currentx > board.length || currenty > board.length) {
             return false;
         }
         if(currentx == newx && currenty == newy) {

@@ -31,10 +31,7 @@ public class Player {
 
     @Override
     public String toString(){
-        if(color == true) {
-            return "White";
-        }
-        else return "Black";
+        return DeadPieces.toString();
     }
 
     public List<GamePiece> getDeadPieces() {

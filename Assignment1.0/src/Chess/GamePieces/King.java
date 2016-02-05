@@ -33,4 +33,14 @@ public class King extends GamePiece {
         return false;
 
     }
+
+    @Override
+    public int getCurrenty() {
+        return super.getCurrenty();
+    }
+
+    @Override
+    public int getCurrentx() {
+        return super.getCurrentx();
+    }
 }

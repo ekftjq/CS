@@ -17,7 +17,7 @@ public class GameMain {
                 }
             }
         }
-        */
+
         System.out.println(b.blocks[2][0].getPiece().getType());
         System.out.println(b.blocks[2][0].Piece.ValidMove(b.blocks, 2, 0, 1, 1));
         b.move(b.blocks, 1, 1, 1, 3);
@@ -27,6 +27,24 @@ public class GameMain {
         System.out.println(b.blocks[2][4].getPiece().getType());
         System.out.println(b.blocks[1][3].Piece.ValidMove(b.blocks, 1, 3, 2, 4));
         System.out.println(b.white.getDeadPieces());
+        System.out.println(b.black.getDeadPieces());
+        */
+
+        b.move(b.blocks, 3, 1, 3, 3);
+        b.move(b.blocks, 4, 6, 4, 4);
+        b.move(b.blocks, 4, 7, 4, 5);
+        b.move(b.blocks, 4, 5, 2, 5);
+        b.move(b.blocks, 2, 5, 2, 2);
+        b.move(b.blocks, 2, 2, 3, 2);
+        int aa = b.blocks[5][1].getPiece().getCurrentx();
+        int a = b.WhiteKing(b)[0];
+        int c = b.WhiteKing(b)[1];
+        int d = b.BlackKing(b)[0];
+        int f = b.BlackKing(b)[1];
+
+        System.out.println(a);
+        System.out.println(c);
+        System.out.println(b.CheckChecker(b, b.white));
         }
 
     }

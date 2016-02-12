@@ -41,21 +41,18 @@ public class Board {
                 blocks[r][c] = new Block();
             }
         }
-
         if(SuperPawn) {
             initializeSuperPawn();
         }
         else {
             initializePawn();
         }
-
         if(RookKnight) {
             initializeRookKnight();
         }
         else {
             initializeKnight();
         }
-
         initializeRook();
         initializeBishop();
         initializeKing();

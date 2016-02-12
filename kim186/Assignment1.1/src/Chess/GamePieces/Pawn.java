@@ -20,6 +20,7 @@ public class Pawn extends GamePiece {
         if(!super.ValidMove(board, currentx, currenty, newx, newy)) {
             return false;
         }
+
         if(!moved) {
             this.moved = true;
             if(this.getPlayer().getColor()) { //white
@@ -73,27 +74,25 @@ public class Pawn extends GamePiece {
             }
         }
 
-
-
         //if the diagonal piece is opposite color, capture
         if(this.getPlayer().getColor()) { //white
             if (currentx + 1 == newx && currenty + 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+                this.getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
             if (currentx - 1 == newx && currenty + 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+                this.getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
         }
 
         if(!this.getPlayer().getColor()) { //black
             if (currentx - 1 == newx && currenty - 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+                this.getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
             if (currentx + 1 == newx && currenty - 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+                this.getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
         }

@@ -18,7 +18,9 @@ public class GamePiece {
         KNIGHT,
         BISHOP,
         QUEEN,
-        KING
+        KING,
+        SUPERPAWN,
+        ROOKKNIGHT
     }
 
     int currentx;

@@ -1,5 +1,9 @@
 package Chess;
 
+import Chess.GUI.GUI;
+
+import javax.swing.*;
+
 /**
  * Created by Moon on 2/1/2016.
  * Chess Main Function
@@ -28,7 +32,7 @@ public class GameMain {
         System.out.println(b.blocks[1][3].Piece.ValidMove(b.blocks, 1, 3, 2, 4));
         System.out.println(b.white.getDeadPieces());
         System.out.println(b.black.getDeadPieces());
-        */
+
 
         b.move(b.blocks, 3, 1, 3, 3);
         b.move(b.blocks, 4, 6, 4, 4);
@@ -45,6 +49,21 @@ public class GameMain {
         System.out.println(a);
         System.out.println(c);
         System.out.println(b.CheckChecker(b.white));
-        }
+
+        */
+
+        b.move(b.blocks, 1, 1, 1, 3);
+        b.move(b.blocks, 1, 7, 2, 5);
+        b.move(b.blocks, 2, 5, 1, 3);
+        b.move(b.blocks, 1, 3, 0, 1);
+        b.move(b.blocks, 1, 6, 1, 4);
+        b.move(b.blocks, 2, 7, 0, 5);
+        b.move(b.blocks, 0, 0, 0, 1);
+        b.move(b.blocks, 0, 1, 0, 5);
+        new GUI(b);
 
     }
+
+
+}
+

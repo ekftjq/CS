@@ -19,7 +19,15 @@ public class Board {
     public Block[][] blocks;
     public Player white = new Player(true);
     public Player black = new Player(false);
-    public Player CurrentPlayer;
+    public static int CurrentPlayer;
+    public static int CurrentState;
+
+    public static final int NOACTION = -1;
+    public static final int ONGOING = 0;
+    public static final int BLACKWIN = 1;
+    public static final int WHITEWIN = 2;
+    public static final int WHITE = 0;
+    public static final int BLACK = 1;
 
     public Board() {
         blocks = new Block[row][column];
@@ -34,7 +42,8 @@ public class Board {
         initializeBishop();
         initializeKing();
         initializeQueen();
-        CurrentPlayer = white;
+        CurrentPlayer = WHITE;
+        CurrentState = NOACTION;
     }
 
     public Board(Board b) { //copy constructor
@@ -151,11 +160,11 @@ public class Board {
     }
 
     public void switchPlayer() {
-        if(CurrentPlayer == white) {
-            CurrentPlayer = black;
+        if(CurrentPlayer == WHITE) {
+            CurrentPlayer = BLACK;
         }
         else {
-            CurrentPlayer = white;
+            CurrentPlayer = WHITE;
         }
     }
 

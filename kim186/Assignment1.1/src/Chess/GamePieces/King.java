@@ -26,21 +26,11 @@ public class King extends GamePiece {
         }
 
         if(board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
-                return true;
+            board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
+            return true;
         }
 
         return false;
 
-    }
-
-    @Override
-    public int getCurrenty() {
-        return super.getCurrenty();
-    }
-
-    @Override
-    public int getCurrentx() {
-        return super.getCurrentx();
     }
 }

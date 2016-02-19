@@ -31,11 +31,11 @@ public class Rook extends GamePiece {
             return goLeft(board, currentx, currenty, newx, newy);
         }
 
-        if(newx == currentx && newy < currenty) {
+        if(newx == currentx && newy > currenty) {
             return goDown(board, currentx, currenty, newx, newy);
         }
 
-        if(newx == currentx && newy > currenty) {
+        if(newx == currentx && newy < currenty) {
             return goUp(board, currentx, currenty, newx, newy);
         }
 
@@ -46,8 +46,9 @@ public class Rook extends GamePiece {
     public boolean goRight(Block[][] board, int currentx, int currenty, int newx, int newy) {
         int tempx = currentx;
         while (tempx + 1 <= newx) { //if destination is not empty and has a piece with different color, capture it
-            if (tempx + 1 == newx && board[tempx + 1][currenty].getPiece() != null && board[tempx + 1][currenty].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+            if (tempx + 1 == newx && board[tempx + 1][currenty].getPiece() != null
+                    && board[tempx + 1][currenty].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
             if (board[tempx + 1][currenty].getPiece() != null) { //go one right, if empty, move on
@@ -61,8 +62,9 @@ public class Rook extends GamePiece {
     public boolean goLeft(Block[][] board, int currentx, int currenty, int newx, int newy) {
         int tempx = currentx;
         while (tempx - 1 >= newx) {
-            if (tempx - 1 == newx && board[tempx - 1][currenty].getPiece() != null && board[tempx - 1][currenty].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+            if (tempx - 1 == newx && board[tempx - 1][currenty].getPiece() != null
+                    && board[tempx - 1][currenty].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
             if (board[tempx - 1][currenty].getPiece() != null) { //go one left, if empty move on
@@ -73,14 +75,15 @@ public class Rook extends GamePiece {
         return true;
     }
 
-    public boolean goUp(Block[][] board, int currentx, int currenty, int newx, int newy) {
+    public boolean goDown(Block[][] board, int currentx, int currenty, int newx, int newy) {
         int tempy = currenty;
         while (tempy + 1 <= newy) {
-            if (tempy + 1 == newy && board[currentx][tempy + 1].getPiece() != null && board[currentx][tempy + 1].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+            if (tempy + 1 == newy && board[currentx][tempy + 1].getPiece() != null
+                    && board[currentx][tempy + 1].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
-            if (board[currentx][tempy + 1].getPiece() != null) { //go one up
+            if (board[currentx][tempy + 1].getPiece() != null) { //go one down
                 return false;
             }
             tempy++;
@@ -88,14 +91,15 @@ public class Rook extends GamePiece {
         return true;
     }
 
-    public boolean goDown(Block[][] board, int currentx, int currenty, int newx, int newy) {
+    public boolean goUp(Block[][] board, int currentx, int currenty, int newx, int newy) {
         int tempy = currenty;
-        while (tempy - 1 <= newy) {
-            if (tempy - 1 == newy && board[currentx][tempy - 1].getPiece() != null && board[currentx][tempy - 1].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                player.captured(board[newx][newy].getPiece());
+        while (tempy - 1 >= newy) {
+            if (tempy - 1 == newy && board[currentx][tempy - 1].getPiece() != null
+                    && board[currentx][tempy - 1].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
-            if (board[currentx][tempy - 1].getPiece() != null) { //go one down
+            if (board[currentx][tempy - 1].getPiece() != null) { //go one up
                 return false;
             }
             tempy--;

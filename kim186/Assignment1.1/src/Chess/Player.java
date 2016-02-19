@@ -37,4 +37,5 @@ public class Player {
     public List<GamePiece> getDeadPieces() {
         return DeadPieces;
     }
+
 }

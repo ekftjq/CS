@@ -52,15 +52,27 @@ public class GameMain {
 
         */
 
-        b.move(b.blocks, 1, 1, 1, 3);
-        b.move(b.blocks, 1, 7, 2, 5);
-        b.move(b.blocks, 2, 5, 1, 3);
-        b.move(b.blocks, 1, 3, 0, 1);
-        b.move(b.blocks, 1, 6, 1, 4);
-        b.move(b.blocks, 2, 7, 0, 5);
-        b.move(b.blocks, 0, 0, 0, 1);
-        b.move(b.blocks, 0, 1, 0, 5);
-        new GUI(b);
+        b.move(2, 6, 2, 4);
+        b.move(7, 1, 7, 3);
+        b.move(7, 6, 7, 4);
+        b.move(0, 1, 0, 3);
+        b.move(3, 7, 0, 4);
+        b.move(0, 0, 0, 2);
+        b.move(0, 4, 0, 3);
+        b.move(0, 2, 7, 2);
+        b.move(0, 3, 2, 1);
+        b.move(5, 1, 5, 2);
+        b.move(2, 1, 3, 1);
+        b.move(4, 0, 5, 1);
+        b.move(3, 1, 1, 1);
+        b.move(3, 0, 3, 5);
+        b.move(1, 1, 1, 0);
+        b.move(3, 5, 7, 1);
+        b.move(1, 0, 2, 0);
+        b.move(5, 1, 6, 2);
+        b.move(2, 0, 4, 2);
+        Board c = new Board();
+        new GUI(c);
 
     }
 

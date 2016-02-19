@@ -23,7 +23,7 @@ public class Pawn extends GamePiece {
 
         if(!moved) {
             this.moved = true;
-            if(this.getPlayer().getColor()) { //white
+            if(!this.getPlayer().getColor()) { //black
                 if(newx == currentx) { //same x
                     if(newy - currenty == 1) { //1 step
                         if(board[newx][newy].getPiece() == null) { //no piece on destination
@@ -38,7 +38,7 @@ public class Pawn extends GamePiece {
                 }
             }
 
-            if(!this.getPlayer().getColor()) { //black
+            if(this.getPlayer().getColor()) { //white
                 if(newx == currentx) { //same x
                     if(currenty - newy == 1) { //1 step
                         if(board[newx][newy].getPiece() == null) { //no piece on destination
@@ -54,7 +54,7 @@ public class Pawn extends GamePiece {
             }
         }
 
-        if(this.getPlayer().getColor()) { //white
+        if(!this.getPlayer().getColor()) { //black
             if (newx == currentx) { //same x
                 if (newy - currenty == 1) { //1 step
                     if (board[newx][newy].getPiece() == null) { //no piece on destination
@@ -64,7 +64,7 @@ public class Pawn extends GamePiece {
             }
         }
 
-        if(!this.getPlayer().getColor()) { //black
+        if(this.getPlayer().getColor()) { //white
             if (newx == currentx) { //same x
                 if (currenty - newy == 1) { //1 step
                     if (board[newx][newy].getPiece() == null) { //no piece on destination
@@ -75,24 +75,24 @@ public class Pawn extends GamePiece {
         }
 
         //if the diagonal piece is opposite color, capture
-        if(this.getPlayer().getColor()) { //white
-            if (currentx + 1 == newx && currenty + 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
-                this.getPlayer().captured(board[newx][newy].getPiece());
+        if(!this.getPlayer().getColor()) { // black
+            if (currentx + 1 == newx && currenty + 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
-            if (currentx - 1 == newx && currenty + 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
-                this.getPlayer().captured(board[newx][newy].getPiece());
+            if (currentx - 1 == newx && currenty + 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
         }
 
-        if(!this.getPlayer().getColor()) { //black
-            if (currentx - 1 == newx && currenty - 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
-                this.getPlayer().captured(board[newx][newy].getPiece());
+        if(this.getPlayer().getColor()) { // white
+            if (currentx - 1 == newx && currenty - 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
-            if (currentx + 1 == newx && currenty - 1 == newy && board[newx][newy].getPiece().getPlayer().getColor()) {
-                this.getPlayer().captured(board[newx][newy].getPiece());
+            if (currentx + 1 == newx && currenty - 1 == newy && !board[newx][newy].getPiece().getPlayer().getColor()) {
+                board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                 return true;
             }
         }

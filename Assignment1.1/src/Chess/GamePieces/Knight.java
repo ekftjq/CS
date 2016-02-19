@@ -25,7 +25,7 @@ public class Knight extends GamePiece {
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
                     //if new block is occupied but by a different color, capture
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -36,7 +36,7 @@ public class Knight extends GamePiece {
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
                     //if new block is occupied but by a different color
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -48,7 +48,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -58,7 +58,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -70,7 +70,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -79,7 +79,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -91,7 +91,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }
@@ -101,7 +101,7 @@ public class Knight extends GamePiece {
                     return true;
                 }
                 if (board[newx][newy].getPiece() != null && board[newx][newy].getPiece().getPlayer().getColor() != board[currentx][currenty].getPiece().getPlayer().getColor()) {
-                    player.captured(board[newx][newy].getPiece());
+                    board[newx][newy].getPiece().getPlayer().captured(board[newx][newy].getPiece());
                     return true;
                 }
             }

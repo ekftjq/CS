@@ -12,12 +12,14 @@ import Chess.GamePieces.*;
  * Board is a collection of blocks
  *
  */
+
 public class Board {
     int row = 8;
     int column = 8;
     public Block[][] blocks;
     public Player white = new Player(true);
     public Player black = new Player(false);
+    public Player CurrentPlayer;
 
     public Board() {
         blocks = new Block[row][column];
@@ -32,6 +34,16 @@ public class Board {
         initializeBishop();
         initializeKing();
         initializeQueen();
+        CurrentPlayer = white;
+    }
+
+    public Board(Board b) { //copy constructor
+        blocks = b.blocks;
+        for (int r = 0; r < row; r++) {
+            for (int c = 0; c < column; c++) {
+                blocks[r][c] = b.blocks[r][c];
+            }
+        }
     }
 
     public Board(boolean RookKnight, boolean SuperPawn) {
@@ -61,181 +73,90 @@ public class Board {
 
     private void initializeSuperPawn() {
         for (int r = 0; r < row; r++) {
-            blocks[r][1].Piece = new SuperPawn(white, GamePiece.PieceType.SUPERPAWN, r, 1);
+            blocks[r][1].setPiece(new SuperPawn(black, GamePiece.PieceType.SUPERPAWN, r, 1));
         }
 
         for (int r = 0; r < row; r++) {
-            blocks[r][6].Piece = new SuperPawn(black, GamePiece.PieceType.SUPERPAWN, r, 6);
+            blocks[r][6].setPiece(new SuperPawn(white, GamePiece.PieceType.SUPERPAWN, r, 6));
         }
     }
 
     private void initializeRookKnight() {
-        blocks[1][0].Piece = new RookKnight(white, GamePiece.PieceType.ROOKKNIGHT, 1, 0);
-        blocks[6][0].Piece = new RookKnight(white, GamePiece.PieceType.ROOKKNIGHT, 6, 0);
-        blocks[1][7].Piece = new RookKnight(black, GamePiece.PieceType.ROOKKNIGHT, 1, 7);
-        blocks[6][7].Piece = new RookKnight(black, GamePiece.PieceType.ROOKKNIGHT, 6, 7);
+        blocks[1][0].setPiece(new RookKnight(black, GamePiece.PieceType.ROOKKNIGHT, 1, 0));
+        blocks[6][0].setPiece(new RookKnight(black, GamePiece.PieceType.ROOKKNIGHT, 6, 0));
+        blocks[1][7].setPiece(new RookKnight(white, GamePiece.PieceType.ROOKKNIGHT, 1, 7));
+        blocks[6][7].setPiece(new RookKnight(white, GamePiece.PieceType.ROOKKNIGHT, 6, 7));
     }
 
     private void initializeQueen() {
-        blocks[4][0].Piece = new Queen(white, GamePiece.PieceType.QUEEN, 4, 0);
-        blocks[4][7].Piece = new Queen(black, GamePiece.PieceType.QUEEN, 4, 7);
+        blocks[3][0].setPiece(new Queen(black, GamePiece.PieceType.QUEEN, 3, 0));
+        blocks[3][7].setPiece(new Queen(white, GamePiece.PieceType.QUEEN, 3, 7));
     }
 
     private void initializeKing() {
-        blocks[3][0].Piece = new King(white, GamePiece.PieceType.KING, 3, 0);
-        blocks[3][7].Piece = new King(black, GamePiece.PieceType.KING, 3, 7);
+        blocks[4][0].setPiece(new King(black, GamePiece.PieceType.KING, 4, 0));
+        blocks[4][7].setPiece(new King(white, GamePiece.PieceType.KING, 4, 7));
     }
 
     private void initializeKnight() {
-        blocks[1][0].Piece = new Knight(white, GamePiece.PieceType.KNIGHT, 1, 0);
-        blocks[6][0].Piece = new Knight(white, GamePiece.PieceType.KNIGHT, 6, 0);
-        blocks[1][7].Piece = new Knight(black, GamePiece.PieceType.KNIGHT, 1, 7);
-        blocks[6][7].Piece = new Knight(black, GamePiece.PieceType.KNIGHT, 6, 7);
+        blocks[1][0].setPiece(new Knight(black, GamePiece.PieceType.KNIGHT, 1, 0));
+        blocks[6][0].setPiece(new Knight(black, GamePiece.PieceType.KNIGHT, 6, 0));
+        blocks[1][7].setPiece(new Knight(white, GamePiece.PieceType.KNIGHT, 1, 7));
+        blocks[6][7].setPiece(new Knight(white, GamePiece.PieceType.KNIGHT, 6, 7));
     }
 
     private void initializePawn() {
         for (int r = 0; r < row; r++) {
-            blocks[r][1].Piece = new Pawn(white, GamePiece.PieceType.PAWN, r, 1);
+            blocks[r][1].setPiece(new Pawn(black, GamePiece.PieceType.PAWN, r, 1));
         }
 
         for (int r = 0; r < row; r++) {
-            blocks[r][6].Piece = new Pawn(black, GamePiece.PieceType.PAWN, r, 6);
+            blocks[r][6].setPiece(new Pawn(white, GamePiece.PieceType.PAWN, r, 6));
         }
     }
 
     private void initializeRook() {
-        blocks[0][0].Piece = new Rook(white, GamePiece.PieceType.ROOK, 0, 0);
-        blocks[7][0].Piece = new Rook(white, GamePiece.PieceType.ROOK, 7, 0);
-        blocks[0][7].Piece = new Rook(black, GamePiece.PieceType.ROOK, 0, 7);
-        blocks[7][7].Piece = new Rook(black, GamePiece.PieceType.ROOK, 7, 7);
+        blocks[0][0].setPiece(new Rook(black, GamePiece.PieceType.ROOK, 0, 0));
+        blocks[7][0].setPiece(new Rook(black, GamePiece.PieceType.ROOK, 7, 0));
+        blocks[0][7].setPiece(new Rook(white, GamePiece.PieceType.ROOK, 0, 7));
+        blocks[7][7].setPiece(new Rook(white, GamePiece.PieceType.ROOK, 7, 7));
     }
 
     private void initializeBishop() {
-        blocks[2][0].Piece = new Bishop(white, GamePiece.PieceType.BISHOP, 2, 0);
-        blocks[5][0].Piece = new Bishop(white, GamePiece.PieceType.BISHOP, 5, 0);
-        blocks[2][7].Piece = new Bishop(black, GamePiece.PieceType.BISHOP, 2, 7);
-        blocks[5][7].Piece = new Bishop(black, GamePiece.PieceType.BISHOP, 5, 7);
+        blocks[2][0].setPiece(new Bishop(black, GamePiece.PieceType.BISHOP, 2, 0));
+        blocks[5][0].setPiece(new Bishop(black, GamePiece.PieceType.BISHOP, 5, 0));
+        blocks[2][7].setPiece(new Bishop(white, GamePiece.PieceType.BISHOP, 2, 7));
+        blocks[5][7].setPiece(new Bishop(white, GamePiece.PieceType.BISHOP, 5, 7));
     }
 
-    public boolean move(Block[][] board, int currentx, int currenty, int newx, int newy) {
-        if (board[currentx][currenty].getPiece() != null) {
-            if (board[currentx][currenty].Piece.ValidMove(board, currentx, currenty, newx, newy)) {
-                board[newx][newy].Piece = board[currentx][currenty].Piece;
-                board[currentx][currenty].Piece = null;
+    /**
+     * Moves the Piece from one block to another
+     * @param currentx Current location of x
+     * @param currenty Current location of y
+     * @param newx New location of x
+     * @param newy New location of y
+     * @return Whether move was successful or not
+     */
+    public boolean move(int currentx, int currenty, int newx, int newy) {
+        if (this.blocks[currentx][currenty].getPiece() != null) {
+            if (this.blocks[currentx][currenty].getPiece().ValidMove(this.blocks, currentx, currenty, newx, newy)) {
+                this.blocks[newx][newy].setPiece(this.blocks[currentx][currenty].getPiece());
+                this.blocks[newx][newy].getPiece().setCurrentx(newx);
+                this.blocks[newx][newy].getPiece().setCurrenty(newy);
+                this.blocks[currentx][currenty].setPiece(null);
                 return true;
             }
         }
         return false;
     }
 
-    public int[] WhiteKing() {
-        int[] whiteking = new int[2];
-
-        for (int r = 0; r < row; r++) {
-            for (int c = 0; c < column; c++) {
-                if (this.blocks[r][c].getPiece() != null && this.blocks[r][c].getPiece().getPlayer().getColor()) {
-                    if (this.blocks[r][c].getPiece().getType().equals(GamePiece.PieceType.KING)) {
-                        whiteking[0] = this.blocks[r][c].getPiece().getCurrentx();
-                        whiteking[1] = this.blocks[r][c].getPiece().getCurrenty();
-                    }
-                }
-            }
+    public void switchPlayer() {
+        if(CurrentPlayer == white) {
+            CurrentPlayer = black;
         }
-        return whiteking;
-    }
-
-    public int[] BlackKing() {
-        int[] blackking = new int[2];
-
-        for (int r = 0; r < row; r++) {
-            for (int c = 0; c < column; c++) {
-                if (this.blocks[r][c].getPiece() != null && this.blocks[r][c].getPiece().getType().equals(GamePiece.PieceType.KING)) {
-                    if (!this.blocks[r][c].getPiece().getPlayer().getColor()) {
-                        blackking[0] = this.blocks[r][c].getPiece().getCurrentx();
-                        blackking[1] = this.blocks[r][c].getPiece().getCurrenty();
-                    }
-                }
-            }
+        else {
+            CurrentPlayer = white;
         }
-        return blackking;
-    }
-
-    public boolean CheckChecker(Player p) {
-        if (p.getColor()) {
-            //check if any Piece can land on the King's position
-            for (int r = 0; r < row; r++) {
-                for (int c = 0; c < column; c++) {
-                    if (this.blocks[r][c].getPiece() != null && this.blocks[r][c].getPiece().ValidMove(this.blocks, r, c, WhiteKing()[0], WhiteKing()[1])) {
-                        return true;
-                    }
-                }
-            }
-        }
-        if (!p.getColor()) {
-            for (int r = 0; r < row; r++) {
-                for (int c = 0; c < column; c++) {
-                    if (this.blocks[r][c].getPiece() != null && this.blocks[r][c].getPiece().ValidMove(this.blocks, r, c, BlackKing()[0], BlackKing()[1])) {
-                        return true;
-                    }
-                }
-            }
-        }
-        return false;
-    }
-
-    public boolean CheckMate(Player p, boolean check) {
-        if (check && p.getColor()) {
-            if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] + 1, WhiteKing()[1] + 1)) {
-                if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] - 1, WhiteKing()[1] - 1)) {
-                    if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] + 1, WhiteKing()[1] - 1)) {
-                        if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] - 1, WhiteKing()[1] + 1)) {
-                            if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0], WhiteKing()[1] + 1)) {
-                                if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0], WhiteKing()[1] - 1)) {
-                                    if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] - 1, WhiteKing()[1])) {
-                                        if (!this.blocks[WhiteKing()[0]][WhiteKing()[1]].getPiece().ValidMove(this.blocks, WhiteKing()[0], WhiteKing()[1], WhiteKing()[0] + 1, WhiteKing()[1])) {
-                                            return true;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        if (check && !p.getColor()) {
-            if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] + 1, BlackKing()[1] + 1)) {
-                if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] - 1, BlackKing()[1] - 1)) {
-                    if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] + 1, BlackKing()[1] - 1)) {
-                        if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] - 1, BlackKing()[1] + 1)) {
-                            if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0], BlackKing()[1] + 1)) {
-                                if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0], BlackKing()[1] - 1)) {
-                                    if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] - 1, BlackKing()[1])) {
-                                        if (!this.blocks[BlackKing()[0]][BlackKing()[1]].getPiece().ValidMove(this.blocks, BlackKing()[0], BlackKing()[1], BlackKing()[0] + 1, BlackKing()[1])) {
-                                            return true;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        return false;
-    }
-
-    public boolean StaleMate(Player p, boolean check, boolean checkmate) {
-        if (!check && checkmate && p.getColor()) {
-            return true;
-        }
-
-        if (!check && checkmate && !p.getColor()) {
-            return true;
-        }
-        return false;
     }
 
 }

@@ -34,7 +34,7 @@ class Graph
     result = @vertex.find{ |key, hash| (key == city || hash.name == city)}
 
     if result.nil?
-      puts "There is no such city,"
+      puts "There is no such city in CSAir."
       puts ""
       puts "Please input 1 for list of all the cities CS Air travels to"
       puts "Please input 2 for specific information about a city in the CS Air network"
@@ -109,12 +109,12 @@ class Graph
     if(value == 4)
       print "The Biggest city in the network is "
       puts "#{largest.name} (#{largest.code}) with #{largest.population} people"
-      return largest.name
+      return largest.population
     end
     if(value == 5)
       print "The Smallest city in the network is "
       puts "#{smallest.name} (#{smallest.code}) with #{smallest.population} people"
-      return smallest.name
+      return smallest.population
     end
     if(value == 6)
       puts "The average population of all the cities in the network is: #{average}"

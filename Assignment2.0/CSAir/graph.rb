@@ -39,7 +39,8 @@ class Graph
       puts "Please input 1 for list of all the cities CS Air travels to"
       puts "Please input 2 for specific information about a city in the CS Air network"
       puts "Please input 3 for the other statistics"
-      puts "Please input 4 to exit"
+      puts "Please input 4 to Visualize CSAir's route map"
+      puts "Please input 5 to exit"
     else
       result[1].printVertex
       puts ""
@@ -48,7 +49,8 @@ class Graph
       puts "Please input 1 for list of all the cities CS Air travels to"
       puts "Please input 2 for specific information about a city in the CS Air network"
       puts "Please input 3 for the other statistics"
-      puts "Please input 4 to exit"
+      puts "Please input 4 to Visualize CSAir's route map"
+      puts "Please input 5 to exit"
     end
   end
 

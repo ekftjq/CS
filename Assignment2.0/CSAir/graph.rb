@@ -80,13 +80,16 @@ class Graph
     if(value == 1)
       print "The Longest single flight in the network is "
       puts "#{longest.printEdge}"
+      return longest.distance
     end
     if(value == 2)
       print "The Shortest single flight in the network is "
       puts "#{shortest.printEdge}"
+      return shortest.distance
     end
     if(value == 3)
       puts "The average distance of all the flights in the network is: #{average}"
+      return average
     end
 
   end
@@ -104,14 +107,18 @@ class Graph
     if(value == 4)
       print "The Biggest city in the network is "
       puts "#{largest.name} (#{largest.code}) with #{largest.population} people"
+      return largest.name
     end
     if(value == 5)
       print "The Smallest city in the network is "
       puts "#{smallest.name} (#{smallest.code}) with #{smallest.population} people"
+      return smallest.name
     end
     if(value == 6)
       puts "The average population of all the cities in the network is: #{average}"
+      return average
     end
+
   end
 
   def getContinent
@@ -161,6 +168,7 @@ class Graph
       end
     end
     puts "The city with the most direct connects is: #{hubCity.name} (#{hubCity.code})"
+    return hubCity.name
   end
 
   def visualize

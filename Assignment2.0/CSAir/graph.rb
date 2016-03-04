@@ -31,7 +31,7 @@ class Graph
 
   # get specific information about a specific city in the CSAir network
   def getCityInfo(city)
-    result = @vertex.find{ |key, hash| (key == city || hash.name == city)}
+    result = @vertex.find{ |code, cname| (code == city || cname.name == city)}
 
     if result.nil?
       puts "There is no such city in CSAir."
@@ -58,7 +58,7 @@ class Graph
   def connectedCities(code)
     puts "Connected Cities are"
     results = connectedRoutes(code)
-    results.sort{ |x,y| x[1].distance <=> y[1].distance}.each do |route|
+    results.sort{ |i,j| i[1].distance <=> j[1].distance}.each do |route|
       city = @vertex[route[1].ports.join.gsub(code,'')]
       puts "#{city.name} (#{city.code}) : #{route[1].distance}"
     end
@@ -66,11 +66,11 @@ class Graph
 
   # check what routes are connected to a certain city
   def connectedRoutes(city)
-    results = @edge.select{ |key, hash| key.include?(city)}
+    results = @edge.select{ |code, cname| code.include?(city)}
   end
 
   def getFlightData(value)
-    flight = @edge.values.sort{ |x, y| x.distance <=> y.distance}
+    flight = @edge.values.sort{ |i, j| i.distance <=> j.distance}
     longest = flight.last
     shortest = flight.first
     total = 0
@@ -97,7 +97,7 @@ class Graph
   end
 
   def getCityData(value)
-    city = @vertex.values.sort{ |x,y| x.population <=> y.population}
+    city = @vertex.values.sort{ |i,j| i.population <=> j.population}
     largest = city.last
     smallest = city.first
     total = 0

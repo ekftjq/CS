@@ -14,30 +14,13 @@ class Vertex
     @region  =data["region"]
   end
 
-  def latitude
-    if @coordinates.has_key?("N")
-      "N" + @coordinates["N"].to_s
-    else
-      "S" + @coordinates["S"].to_s
-    end
-  end
-
-  def longitude
-    if @coordinates.has_key?("W")
-      "W" + @coordinates["W"].to_s
-    else
-      "E" + @coordinates["E"].to_s
-    end
-  end
-
   def printVertex
     puts "code: #{code}"
     puts "name: #{name}"
     puts "country: #{country}"
     puts "continent: #{continent}"
     puts "timezone: #{timezone}"
-    puts "latitude: #{self.latitude}"
-    puts "longitude: #{self.longitude}"
+    puts "coordinates: #{coordinates}"
     puts "population: #{population}"
     puts "region: #{region}"
   end

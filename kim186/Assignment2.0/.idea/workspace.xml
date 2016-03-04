@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1994cd82-4b29-4cb8-8c67-a5bf28975cbc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< .mine
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSAir/vertex.rb" afterPath="$PROJECT_DIR$/CSAir/vertex.rb" />
+||||||| .r7329
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSAir/graph.rb" afterPath="$PROJECT_DIR$/CSAir/graph.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSAir/main.rb" afterPath="$PROJECT_DIR$/CSAir/main.rb" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CSAir/graph.rb" afterPath="$PROJECT_DIR$/CSAir/graph.rb" />
+>>>>>>> .r7617
     </list>
     <ignored path="Assignment2.0.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +31,19 @@
     <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_shortest__Assignment2_0.coverage" NAME="test_graph_shortest: Assignment2.0 Coverage Results" MODIFIED="1456515004841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
     <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_populationavg__Assignment2_0.coverage" NAME="test_graph_populationavg: Assignment2.0 Coverage Results" MODIFIED="1456514756771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
     <SUITE FILE_PATH="coverage/Assignment2.0@graph.coverage" NAME="graph Coverage Results" MODIFIED="1456503708244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+<<<<<<< .mine
+    <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_distavg__Assignment2_0.coverage" NAME="test_graph_distavg: Assignment2.0 Coverage Results" MODIFIED="1456515040915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@info_reader.coverage" NAME="info_reader Coverage Results" MODIFIED="1456484643364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_shortest__Assignment2_0.coverage" NAME="test_graph_shortest: Assignment2.0 Coverage Results" MODIFIED="1456515004841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@main.coverage" NAME="main Coverage Results" MODIFIED="1456845586897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+||||||| .r7329
+    <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_distavg__Assignment2_0.coverage" NAME="test_graph_distavg: Assignment2.0 Coverage Results" MODIFIED="1456515040915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@info_reader.coverage" NAME="info_reader Coverage Results" MODIFIED="1456484643364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@test_graph_shortest__Assignment2_0.coverage" NAME="test_graph_shortest: Assignment2.0 Coverage Results" MODIFIED="1456515004841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+    <SUITE FILE_PATH="coverage/Assignment2.0@main.coverage" NAME="main Coverage Results" MODIFIED="1456515182805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+=======
     <SUITE FILE_PATH="coverage/Assignment2.0@main.coverage" NAME="main Coverage Results" MODIFIED="1456515317807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CSAir" MODULE_NAME="Assignment2.0" />
+>>>>>>> .r7617
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,7 +58,13 @@
         <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+<<<<<<< .mine
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+||||||| .r7329
+              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+=======
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+>>>>>>> .r7617
               <folding />
             </state>
           </provider>
@@ -85,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vertex.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="vertex.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CSAir/vertex.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.85655737">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -114,11 +139,11 @@
         <option value="$PROJECT_DIR$/CSAir/metros.rb" />
         <option value="$PROJECT_DIR$/CSAir/routes.rb" />
         <option value="$PROJECT_DIR$/CSAir/edge.rb" />
-        <option value="$PROJECT_DIR$/CSAir/vertex.rb" />
         <option value="$PROJECT_DIR$/CSAir/main.rb" />
         <option value="$PROJECT_DIR$/CSAir/graphTest.rb" />
         <option value="$PROJECT_DIR$/CSAir/my_test.rb" />
         <option value="$PROJECT_DIR$/CSAir/graph.rb" />
+        <option value="$PROJECT_DIR$/CSAir/vertex.rb" />
       </list>
     </option>
   </component>
@@ -158,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,10 +211,15 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< .mine
+      <pane id="Scratches" />
+||||||| .r7329
+=======
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files" />
       </pane>
+>>>>>>> .r7617
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -439,14 +468,23 @@
         <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_graph_longest: Assignment2.0" />
         <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_graph_distavg: Assignment2.0" />
         <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_graph_shortest: Assignment2.0" />
+<<<<<<< .mine
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_graph_shortest: Assignment2.0" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MyTest': Assignment2.0" />
+||||||| .r7329
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MyTest': Assignment2.0" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_graph_shortest: Assignment2.0" />
+=======
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'MyTest': Assignment2.0" />
         <item index="4" class="java.lang.String" itemvalue="Ruby.main" />
+>>>>>>> .r7617
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\MoonSeop\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
@@ -474,6 +512,13 @@
       <option name="number" value="Default" />
       <updated>1456483457400</updated>
     </task>
+    <task id="LOCAL-00001">
+      <created>1456515223362</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1456515223362</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -521,17 +566,30 @@
     <frame x="10" y="20" width="1346" height="688" extended-state="0" />
     <editor active="false" />
     <layout>
+<<<<<<< .mine
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.357971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+||||||| .r7329
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35289854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35263157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> .r7617
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< .mine
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+||||||| .r7329
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3285528" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32781458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> .r7617
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -551,6 +609,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -559,6 +620,57 @@
     <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< .mine
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/my_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/graph.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/edge.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/map_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/vertex.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+||||||| .r7329
+=======
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -655,6 +767,7 @@
     <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+>>>>>>> .r7617
           <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding />
         </state>
@@ -715,14 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSAir/vertex.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CSAir/map_data.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -731,10 +836,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CSAir/my_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+||||||| .r7329
+        <state vertical-scroll-proportion="-8.821428">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="33" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="33" />
+>>>>>>> .r7617
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/CSAir/graph.rb">
+||||||| .r7329
+    <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
+=======
     <entry file="file://$PROJECT_DIR$/CSAir/edge.rb">
+>>>>>>> .r7617
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< .mine
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+||||||| .r7329
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+=======
           <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+>>>>>>> .r7617
           <folding />
         </state>
       </provider>
@@ -750,15 +883,35 @@
     <entry file="file://$PROJECT_DIR$/CSAir/main.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< .mine
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+||||||| .r7329
+          <caret line="133" column="23" selection-start-line="133" selection-start-column="23" selection-end-line="133" selection-end-column="23" />
+=======
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+>>>>>>> .r7617
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< .mine
+    <entry file="file://$PROJECT_DIR$/CSAir/vertex.rb">
+||||||| .r7329
+    <entry file="file://$PROJECT_DIR$/CSAir/my_test.rb">
+=======
     <entry file="file://$PROJECT_DIR$/CSAir/graph.rb">
+>>>>>>> .r7617
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< .mine
+        <state vertical-scroll-proportion="0.85655737">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+||||||| .r7329
+        <state vertical-scroll-proportion="-0.83367556">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
         <state vertical-scroll-proportion="0.59375">
           <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+>>>>>>> .r7617
           <folding />
         </state>
       </provider>

@@ -32,7 +32,7 @@ def main
         return 0
     end
   end
-end #end of main
+end
 
 def cityInfo(graph)
   puts "Enter the City Code or City Name"

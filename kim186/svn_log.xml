@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="8130">
+<author>kim186</author>
+<date>2016-03-04T18:25:27.945635Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/main.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8129">
+<author>kim186</author>
+<date>2016-03-04T18:22:13.896861Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/kim186/Assignment2.1</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="8126">
+<author>kim186</author>
+<date>2016-03-04T18:18:02.058131Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.1</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.1/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/Assignment2.0.iml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.1/CSAir</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/CSAir/edge.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/CSAir/graph.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/CSAir/main.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/CSAir/map_data.json</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.1/CSAir/vertex.rb</path>
+</paths>
+<msg>first</msg>
+</logentry>
+<logentry
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/Assignment2.0.iml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/misc.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/graph.rb</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/vertex.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7331">
+<author>kim186</author>
+<date>2016-02-26T19:41:12.358247Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/graph.rb</path>
+</paths>
+<msg>more last changes</msg>
+</logentry>
+<logentry
+   revision="7330">
+<author>kim186</author>
+<date>2016-02-26T19:38:13.326190Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/graph.rb</path>
+</paths>
+<msg>last changes</msg>
+</logentry>
+<logentry
+   revision="7329">
+<author>kim186</author>
+<date>2016-02-26T19:33:29.696811Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/Assignment2.0.iml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/vcs.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/graph.rb</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment2.0/CSAir/main.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/my_test.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.0</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.0/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/Assignment2.0.iml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment2.0/CSAir</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/edge.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/graph.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/main.rb</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/map_data.json</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment2.0/CSAir/vertex.rb</path>
+</paths>
+<msg>Ruby is hard</msg>
+</logentry>
+<logentry
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.2/src/Chess/Board.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.2/src/Chess/GUI/GUI.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/.idea/copyright</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Assignment1.1GUITest.pdf</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Chess.iml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Block.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Board.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/BoardTest.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/EndGame.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess/GUI</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GUI/GUI$1.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GUI/GUI$Action.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GUI/GUI.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GameMain.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePieceTest.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/King.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Knight.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Pawn.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Queen.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Rook.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/RookKnight.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/SuperPawn.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Player.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Block.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Board.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/EndGame.java</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess/GUI</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GUI/GUI.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GameMain.java</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess/GamePieces</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/King.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/RookKnight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/SuperPawn.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Player.java</path>
+</paths>
+<msg>Some</msg>
+</logentry>
+<logentry
+   revision="6337">
+<author>kim186</author>
+<date>2016-02-19T15:32:44.380987Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/.idea/workspace.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6336">
+<author>kim186</author>
+<date>2016-02-19T15:30:32.988175Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/kim186/Assignment1.2</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/Board.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/BoardTest.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GameMain.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Bishop.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePieceTest.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/King.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Knight.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Pawn.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Rook.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/Board.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/BoardTest.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.1/src/Chess/EndGame.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GUI/GUI.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GameMain.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/King.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Knight.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Rook.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/Player.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6293">
+<author>kim186</author>
+<date>2016-02-19T09:06:39.112983Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/.idea/copyright</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Assignment1.1GUITest.pdf</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Chess.iml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Block.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Board.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/BoardTest.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess/GUI</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GUI/GUI.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GameMain.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/GamePieceTest.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/King.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Knight.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Pawn.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Queen.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/Rook.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/RookKnight.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/GamePieces/SuperPawn.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/out/production/Chess/Chess/Player.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Block.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Board.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/BoardTest.java</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess/GUI</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GUI/GUI.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GameMain.java</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.2/src/Chess/GamePieces</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/King.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/RookKnight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/GamePieces/SuperPawn.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.2/src/Chess/Player.java</path>
+</paths>
+<msg>Assignment 1.2 Initial</msg>
+</logentry>
+<logentry
+   revision="5223">
+<author>kim186</author>
+<date>2016-02-12T19:47:38.597467Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/Assignment1.1GUITest.pdf</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5221">
+<author>kim186</author>
+<date>2016-02-12T19:47:06.259151Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/out/production/Chess/Chess/Board.class</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/out/production/Chess/Chess/GameMain.class</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/src/Chess/Board.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/src/Chess/GUI</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GUI/GUI.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.1/src/Chess/GameMain.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5140">
+<author>kim186</author>
+<date>2016-02-12T14:31:01.597497Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/Doxyfile</path>
+</paths>
+<msg>added Doxyfile</msg>
+</logentry>
+<logentry
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/Board.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePieceTest.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Pawn.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Queen.class</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/Board.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Pawn.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/RookKnight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.1/src/Chess/GamePieces/SuperPawn.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/.idea</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/.name</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/compiler.xml</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/encodings.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/modules.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/Chess.iml</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/out</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/out/production</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/out/production/Chess</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/Block.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/Board.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/BoardTest.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GameMain.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/GamePieceTest.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/King.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Knight.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Queen.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/GamePieces/Rook.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/out/production/Chess/Chess/Player.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/src</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/src/Chess</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/Block.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/Board.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/BoardTest.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GameMain.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/King.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/Knight.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/Queen.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/GamePieces/Rook.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.1/src/Chess/Player.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/Board.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.0/src/Chess/BoardTest.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GameMain.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment1.0/src/Chess/GamePieces/GamePieceTest.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/King.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/Player.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/Chess.iml</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/Block.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/Board.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GameMain.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/Bishop.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/King.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/Knight.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/Queen.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/GamePieces/Rook.java</path>
+<path
+   kind="file"
+   action="M">/kim186/Assignment1.0/src/Chess/Player.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.0/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/.name</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.0/.idea/copyright</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/Chess.iml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.0/src</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.0/src/Chess</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/Block.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/Board.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GameMain.java</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1.0/src/Chess/GamePieces</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/GamePiece.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/King.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/Knight.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/Queen.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/GamePieces/Rook.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment1.0/src/Chess/Player.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3651">
+<author>kim186</author>
+<date>2016-02-05T04:31:33.318832Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/kim186/Assignment1</path>
+<path
+   action="A"
+   kind="dir"
+   copyfrom-path="/kim186/Assignment1"
+   copyfrom-rev="3650">/kim186/Assignment1.0</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3650">
+<author>kim186</author>
+<date>2016-02-05T04:31:19.752644Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment1</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/.idea</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/.idea/copyright</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/description.html</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/project-template.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/CardCounting.iml</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/out</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/out/production</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/out/production/CardCounting</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/out/production/CardCounting/CardCounting</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/out/production/CardCounting/CardCounting/DrawCounter.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/out/production/CardCounting/CardCounting/Main.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/out/production/CardCounting/CardCounting/MainTest.class</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/out/production/CardCounting/CardCounting/Points.class</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/src</path>
+<path
+   action="A"
+   kind="dir">/kim186/Assignment0/CardCounting/src/CardCounting</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/src/CardCounting/DrawCounter.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/src/CardCounting/Main.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/src/CardCounting/MainTest.java</path>
+<path
+   action="A"
+   kind="file">/kim186/Assignment0/CardCounting/src/CardCounting/Points.java</path>
+</paths>
+<msg>My code</msg>
+</logentry>
+<logentry
+   revision="2470">
+<author>kim186</author>
+<date>2016-01-29T08:14:50.534695Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/kim186/Assignment 0</path>
+<path
+   action="A"
+   kind="dir"
+   copyfrom-path="/kim186/Assignment 0"
+   copyfrom-rev="2469">/kim186/Assignment0</path>
+</paths>
+<msg>renamed</msg>
+</logentry>
+<logentry
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/kim186/Assignment 0/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment 0/HW0/src/lanSimulation/Network.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment 0/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   action="M"
+   kind="file">/kim186/Assignment 0/HW0/src/lanSimulation/tests/LANTests.java</path>
+</paths>
+<msg>HW0 done refactoring</msg>
+</logentry>
+<logentry
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/.classpath</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/.project</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/bin</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/doc</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/src</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/HW0/useOutput.txt</path>
+</paths>
+<msg>hw0 initial</msg>
+</logentry>
+<logentry
+   revision="2294">
+<author>kim186</author>
+<date>2016-01-29T04:29:36.038235Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/kim186/HW0</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2291">
+<author>kim186</author>
+<date>2016-01-29T04:28:43.783891Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186/HW0</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/.classpath</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/.project</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/COPYING</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/bin</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/bin/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/doc</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/javadoc.xml</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/src</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/src/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/src/lanSimulation/Network.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/src/lanSimulation/internals</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="dir"
+   action="A">/kim186/HW0/src/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="file"
+   action="A">/kim186/HW0/useOutput.txt</path>
+</paths>
+<msg>HW0 commit</msg>
+</logentry>
+<logentry
+   revision="2290">
+<author>kim186</author>
+<date>2016-01-29T04:22:59.417505Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/kim186/Assignment 0/grocery</path>
+<path
+   kind="dir"
+   copyfrom-path="/kim186/Assignment 0/grocery"
+   copyfrom-rev="2289"
+   action="A">/kim186/Assignment 0/shopping</path>
+</paths>
+<msg>Moved grocery to shopping for clarity</msg>
+</logentry>
+<logentry
+   revision="2285">
+<author>kim186</author>
+<date>2016-01-29T04:20:14.115088Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/kim186/Assignment 0/grocery/list3.txt</path>
+</paths>
+<msg>Discovered that I want to be a vegetarian</msg>
+</logentry>
+<logentry
+   revision="2284">
+<author>kim186</author>
+<date>2016-01-29T04:19:40.641128Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/grocery/list3.txt</path>
+</paths>
+<msg>Added list of meats</msg>
+</logentry>
+<logentry
+   revision="2283">
+<author>kim186</author>
+<date>2016-01-29T04:18:24.280176Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg>Emphasize importance of carrot</msg>
+</logentry>
+<logentry
+   revision="2280">
+<author>kim186</author>
+<date>2016-01-29T04:13:12.865433Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg>Put emphasis on carrot</msg>
+</logentry>
+<logentry
+   revision="2279">
+<author>kim186</author>
+<date>2016-01-29T04:12:15.356434Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg>Added less important vegetable</msg>
+</logentry>
+<logentry
+   revision="2278">
+<author>kim186</author>
+<date>2016-01-29T04:10:39.334504Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg>Added more important vegetable</msg>
+</logentry>
+<logentry
+   revision="2277">
+<author>kim186</author>
+<date>2016-01-29T04:07:44.079021Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg>Adding more vegetables</msg>
+</logentry>
+<logentry
+   revision="2271">
+<author>kim186</author>
+<date>2016-01-29T04:05:32.788991Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/kim186/Assignment 0/grocery/list1.txt</path>
+</paths>
+<msg>Need to buy more fruit</msg>
+</logentry>
+<logentry
+   revision="2270">
+<author>kim186</author>
+<date>2016-01-29T04:02:30.325264Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/grocery/list2.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2268">
+<author>kim186</author>
+<date>2016-01-29T04:02:07.944550Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/kim186/Assignment 0/grocery/list1.txt</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2267">
+<author>kim186</author>
+<date>2016-01-29T04:01:34.792701Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0/grocery</path>
+</paths>
+<msg>grocery</msg>
+</logentry>
+<logentry
+   revision="2261">
+<author>kim186</author>
+<date>2016-01-29T03:58:44.642651Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186/Assignment 0</path>
+</paths>
+<msg>Assignment 0</msg>
+</logentry>
+<logentry
+   revision="93">
+<author>root</author>
+<date>2016-01-21T17:21:39.640939Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/kim186</path>
+</paths>
+<msg>created directory kim186</msg>
+</logentry>
+</log>

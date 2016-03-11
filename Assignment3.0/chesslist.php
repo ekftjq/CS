@@ -6,14 +6,13 @@
  * Date: 3/11/2016
  * Time: 9:23 AM
  */
-$svnlist = simplexml_load_file('svn_list.xml') or die("Error: Cannot create Object");
 
-foreach($svnlist->list->entry as $entry) {
-    $name = $entry->name;
-    if(strpos($name, 'Assignment1.') !== false) {
-        echo "$name<br>\n";
+include 'parse.php';
+
+for($i = 0; $i < sizeof($name); $i++) {
+    if(strpos($name[$i], 'Assignment1.') !== false) {
+        echo "$name[$i]<br>\n";
     }
-
 }
 
 

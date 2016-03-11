@@ -10,8 +10,6 @@ Version    : 1.0
 Released   : 20140207
 
 -->
-
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -33,28 +31,19 @@ include 'header.php';
 <div id="wrapper3">
     <div id="content" class="container">
             <p><?php
-                
-                $xml = simplexml_load_file('svn_log.xml');
-                $svnlist = simplexml_load_file('svn_list.xml');
-
-                foreach($xml->logentry as $log) {
-                    $date = substr($log->date, 0, 10);
-                    $time = substr($log->date, 11, 12);
-                    $msg = $log->msg;
-                    $auth = $log->author;
-                    echo "$date: submitted on $time Commit Message : <b>$msg</b><br>\n";
-
+                include 'parse.php';
+                for($i = 0; $i < sizeof($date); $i++) {
+                    echo "$date[$i]: submitted on $time[$i] Commit Message : <b>$msg[$i]</b><br>\n";
+                    $i++;
                 }
 
-                foreach($svnlist->list->entry as $entry) {
-                    $name = $entry->name;
-                    echo "$name<br>\n";
+                for($i = 0; $i < sizeof($name); $i++) {
+                    echo "$name[$i]<br>\n";
+                    $i++;
                 }
-
                 ?></p>
     </div>
 </div>
-
 
 <?php
 include 'footer.php';

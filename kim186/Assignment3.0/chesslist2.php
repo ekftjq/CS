@@ -6,16 +6,11 @@
  * Time: 10:46 AM
  */
 
-$xml = simplexml_load_file('svn_log.xml') or die("Error: Cannot create Object");
+include 'parse.php';
 
-foreach($xml->logentry as $log) {
-    $date = substr($log->date, 0, 10);
-    $time = substr($log->date, 11, 12);
-    $path = $log->paths->path;
-    $msg = $log->msg;
-    $auth = $log->author;
-    if(strpos($path, 'Assignment1.') !== false) {
-        echo "$date: submitted on $time Commit Message : <b>$msg</b><br>\n";
+for($i = 0; $i < sizeof($path); $i++) {
+    if(strpos($path[$i], 'Assignment1.') !== false) {
+        echo "$date[$i]: submitted on $time[$i] Commit Message : <b>$msg[$i]</b><br>\n";
     }
-
 }
+

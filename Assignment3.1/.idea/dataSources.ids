@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - kim186_cs242@kim186.web.engr.illinois.edu" uuid="cbe3c500-fca8-4c11-a6f0-dc8e215f3d2f">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="comment_database [2]" uuid="6cd00107-09b8-4804-9665-8ada0f0fe352">
+    <database-info product="SQLite" version="3.8.9" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="bar" schema="" catalog="" type="TABLE">
+      <column name="bar" sqlType="STRING" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="comments" schema="" catalog="" type="TABLE">
+      <column name="post_num" sqlType="INTEGER" precision="0" scale="-1" nullable="true" jdbcType="4"/>
+      <column name="user_name" sqlType="TEXT" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="content" sqlType="TEXT" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="post_num"/>
+    </table>
+    <table name="foo" schema="" catalog="" type="TABLE">
+      <column name="bar" sqlType="STRING" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

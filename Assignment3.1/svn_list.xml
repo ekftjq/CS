@@ -1,0 +1,2190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/sp16-cs242/kim186">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/.idea</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/.idea/copyright</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/misc.xml</name>
+<size>525</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/modules.xml</name>
+<size>271</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/project-template.xml</name>
+<size>91</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/vcs.xml</name>
+<size>164</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/.idea/workspace.xml</name>
+<size>24150</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/CardCounting.iml</name>
+<size>679</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/out</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/out/production</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/out/production/CardCounting</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/out/production/CardCounting/CardCounting</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/out/production/CardCounting/CardCounting/DrawCounter.class</name>
+<size>372</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/out/production/CardCounting/CardCounting/Main.class</name>
+<size>7429</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/out/production/CardCounting/CardCounting/MainTest.class</name>
+<size>484</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/out/production/CardCounting/CardCounting/Points.class</name>
+<size>354</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/src</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/CardCounting/src/CardCounting</name>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/src/CardCounting/DrawCounter.java</name>
+<size>178</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/src/CardCounting/Main.java</name>
+<size>12881</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/src/CardCounting/MainTest.java</name>
+<size>274</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/CardCounting/src/CardCounting/Points.java</name>
+<size>148</size>
+<commit
+   revision="2479">
+<author>kim186</author>
+<date>2016-01-29T08:46:42.756904Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0</name>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.classpath</name>
+<size>307</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.settings</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/LANSimulation.class</name>
+<size>4544</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/Network.class</name>
+<size>7873</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/internals</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Node.class</name>
+<size>1218</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Packet.class</name>
+<size>717</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/tests</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</name>
+<size>1082</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</name>
+<size>9528</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/doc</name>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src</name>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation</name>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>6073</size>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/Network.java</name>
+<size>7915</size>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>8187</size>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10553</size>
+<commit
+   revision="2469">
+<author>kim186</author>
+<date>2016-01-29T08:11:50.245688Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="2295">
+<author>kim186</author>
+<date>2016-01-29T04:31:20.421766Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/shopping</name>
+<commit
+   revision="2290">
+<author>kim186</author>
+<date>2016-01-29T04:22:59.417505Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/shopping/list1.txt</name>
+<size>61</size>
+<commit
+   revision="2271">
+<author>kim186</author>
+<date>2016-01-29T04:05:32.788991Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/shopping/list2.txt</name>
+<size>82</size>
+<commit
+   revision="2283">
+<author>kim186</author>
+<date>2016-01-29T04:18:24.280176Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea</name>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/.idea/copyright</name>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/misc.xml</name>
+<size>1229</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="3652">
+<author>kim186</author>
+<date>2016-02-05T04:32:10.116036Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Chess.iml</name>
+<size>1098</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src</name>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/Chess</name>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/Block.java</name>
+<size>453</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/Board.java</name>
+<size>12455</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/BoardTest.java</name>
+<size>2238</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GameMain.java</name>
+<size>1756</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/src/Chess/GamePieces</name>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/Bishop.java</name>
+<size>4873</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/GamePiece.java</name>
+<size>1767</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/GamePieceTest.java</name>
+<size>1922</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/King.java</name>
+<size>1190</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/Knight.java</name>
+<size>4922</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/Pawn.java</name>
+<size>3993</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/Queen.java</name>
+<size>8076</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/GamePieces/Rook.java</name>
+<size>4010</size>
+<commit
+   revision="3789">
+<author>kim186</author>
+<date>2016-02-05T17:16:25.060088Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/src/Chess/Player.java</name>
+<size>812</size>
+<commit
+   revision="3828">
+<author>kim186</author>
+<date>2016-02-05T19:44:39.706625Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="6337">
+<author>kim186</author>
+<date>2016-02-19T15:32:44.380987Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea</name>
+<commit
+   revision="6337">
+<author>kim186</author>
+<date>2016-02-19T15:32:44.380987Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/.idea/copyright</name>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/encodings.xml</name>
+<size>238</size>
+<commit
+   revision="5221">
+<author>kim186</author>
+<date>2016-02-12T19:47:06.259151Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/misc.xml</name>
+<size>1593</size>
+<commit
+   revision="5221">
+<author>kim186</author>
+<date>2016-02-12T19:47:06.259151Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/.idea/workspace.xml</name>
+<size>71117</size>
+<commit
+   revision="6337">
+<author>kim186</author>
+<date>2016-02-19T15:32:44.380987Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Assignment1.1GUITest.pdf</name>
+<size>444326</size>
+<commit
+   revision="5223">
+<author>kim186</author>
+<date>2016-02-12T19:47:38.597467Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Chess.iml</name>
+<size>1098</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="5140">
+<author>kim186</author>
+<date>2016-02-12T14:31:01.597497Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production/Chess</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production/Chess/Chess</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/Block.class</name>
+<size>547</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/Board.class</name>
+<size>4411</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/BoardTest.class</name>
+<size>2886</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GameMain.class</name>
+<size>814</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/Bishop.class</name>
+<size>2778</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</name>
+<size>1433</size>
+<commit
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/GamePiece.class</name>
+<size>1712</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/GamePieceTest.class</name>
+<size>2783</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/King.class</name>
+<size>1218</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/Knight.class</name>
+<size>2162</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/Pawn.class</name>
+<size>1770</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/Queen.class</name>
+<size>1254</size>
+<commit
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/GamePieces/Rook.class</name>
+<size>2434</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/out/production/Chess/Chess/Player.class</name>
+<size>1058</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Chess</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/Block.java</name>
+<size>453</size>
+<commit
+   revision="5133">
+<author>kim186</author>
+<date>2016-02-12T13:06:49.683864Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/Board.java</name>
+<size>5554</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/BoardTest.java</name>
+<size>2841</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/EndGame.java</name>
+<size>5882</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Chess/GUI</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GUI/GUI.java</name>
+<size>5569</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GameMain.java</name>
+<size>2407</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/src/Chess/GamePieces</name>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/Bishop.java</name>
+<size>5051</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/GamePiece.java</name>
+<size>1942</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/GamePieceTest.java</name>
+<size>2819</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/King.java</name>
+<size>1030</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/Knight.java</name>
+<size>5194</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/Pawn.java</name>
+<size>4129</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/Queen.java</name>
+<size>971</size>
+<commit
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/Rook.java</name>
+<size>4230</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/RookKnight.java</name>
+<size>1112</size>
+<commit
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/GamePieces/SuperPawn.java</name>
+<size>946</size>
+<commit
+   revision="5137">
+<author>kim186</author>
+<date>2016-02-12T14:18:37.794857Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/src/Chess/Player.java</name>
+<size>814</size>
+<commit
+   revision="6335">
+<author>kim186</author>
+<date>2016-02-19T15:27:25.697203Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/.name</name>
+<size>5</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/compiler.xml</name>
+<size>686</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/.idea/copyright</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/encodings.xml</name>
+<size>238</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/misc.xml</name>
+<size>1593</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/modules.xml</name>
+<size>250</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/vcs.xml</name>
+<size>167</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/.idea/workspace.xml</name>
+<size>71326</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Assignment1.1GUITest.pdf</name>
+<size>444326</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Chess.iml</name>
+<size>1098</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>77197</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Chess</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/Block.class</name>
+<size>547</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/Board.class</name>
+<size>4411</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/BoardTest.class</name>
+<size>2886</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/EndGame.class</name>
+<size>3257</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Chess/GUI</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GUI/GUI$1.class</name>
+<size>177</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GUI/GUI$Action.class</name>
+<size>1205</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GUI/GUI.class</name>
+<size>4330</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GameMain.class</name>
+<size>814</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/Bishop.class</name>
+<size>2778</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece$PieceType.class</name>
+<size>1433</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/GamePiece.class</name>
+<size>1712</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/GamePieceTest.class</name>
+<size>2783</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/King.class</name>
+<size>1218</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/Knight.class</name>
+<size>2162</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/Pawn.class</name>
+<size>1770</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/Queen.class</name>
+<size>1254</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/Rook.class</name>
+<size>2434</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/RookKnight.class</name>
+<size>1272</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/GamePieces/SuperPawn.class</name>
+<size>1103</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/out/production/Chess/Chess/Player.class</name>
+<size>1058</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src</name>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Chess</name>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/Block.java</name>
+<size>453</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/Board.java</name>
+<size>5883</size>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/BoardTest.java</name>
+<size>2841</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/EndGame.java</name>
+<size>5882</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Chess/GUI</name>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GUI/GUI.java</name>
+<size>8115</size>
+<commit
+   revision="6396">
+<author>kim186</author>
+<date>2016-02-19T20:05:06.661969Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GameMain.java</name>
+<size>2407</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/src/Chess/GamePieces</name>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/Bishop.java</name>
+<size>5051</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/GamePiece.java</name>
+<size>1942</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/GamePieceTest.java</name>
+<size>2819</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/King.java</name>
+<size>1030</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/Knight.java</name>
+<size>5194</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/Pawn.java</name>
+<size>4129</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/Queen.java</name>
+<size>971</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/Rook.java</name>
+<size>4230</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/RookKnight.java</name>
+<size>1112</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/GamePieces/SuperPawn.java</name>
+<size>946</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/src/Chess/Player.java</name>
+<size>814</size>
+<commit
+   revision="6338">
+<author>kim186</author>
+<date>2016-02-19T15:34:04.371370Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="8130">
+<author>kim186</author>
+<date>2016-03-04T18:25:27.945635Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea</name>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/.name</name>
+<size>13</size>
+<commit
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/Assignment2.0.iml</name>
+<size>9154</size>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/encodings.xml</name>
+<size>159</size>
+<commit
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/misc.xml</name>
+<size>1152</size>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/modules.xml</name>
+<size>278</size>
+<commit
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="7329">
+<author>kim186</author>
+<date>2016-02-26T19:33:29.696811Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/workspace.xml</name>
+<size>57280</size>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/CSAir</name>
+<commit
+   revision="8130">
+<author>kim186</author>
+<date>2016-03-04T18:25:27.945635Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/edge.rb</name>
+<size>346</size>
+<commit
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/graph.rb</name>
+<size>5237</size>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/main.rb</name>
+<size>2701</size>
+<commit
+   revision="8130">
+<author>kim186</author>
+<date>2016-03-04T18:25:27.945635Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="7322">
+<author>kim186</author>
+<date>2016-02-26T19:05:11.622207Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/my_test.rb</name>
+<size>978</size>
+<commit
+   revision="7329">
+<author>kim186</author>
+<date>2016-02-26T19:33:29.696811Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAir/vertex.rb</name>
+<size>810</size>
+<commit
+   revision="8125">
+<author>kim186</author>
+<date>2016-03-04T18:16:12.094967Z</date>
+</commit>
+</entry>
+</list>
+</lists>

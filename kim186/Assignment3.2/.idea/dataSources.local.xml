@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - kim186_cs242@kim186.web.engr.illinois.edu" uuid="cbe3c500-fca8-4c11-a6f0-dc8e215f3d2f">
+      <secret-storage>master_key</secret-storage>
+      <user-name>kim186_admin</user-name>
+    </data-source>
+    <data-source name="comment_database [2]" uuid="6cd00107-09b8-4804-9665-8ada0f0fe352" />
+  </component>
+</project>
